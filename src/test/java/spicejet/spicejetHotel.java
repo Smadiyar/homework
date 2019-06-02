@@ -15,6 +15,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class spicejetHotel {
 	
+	public static void main(String[] args) {
+		System.out.println("Bug on it");
+	}
+	
 	WebDriver driver;
 	
 	@Before
@@ -61,6 +65,10 @@ public class spicejetHotel {
 		
 		WebElement searchButton=driver.findElement(By.xpath("//input[@name='ctl00$mainContent$ButtonSubmit_MST']"));
 		searchButton.click();
+		
+	
+		
+		
 	}
 	
 	
